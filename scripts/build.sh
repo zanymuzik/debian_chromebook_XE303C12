@@ -174,7 +174,10 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get -y --no-install-recommends install abootimg cgpt fake-hwclock u-boot-tools vboot-utils vboot-kernel-utils \
   initramfs-tools parted sudo xz-utils wpasupplicant firmware-linux firmware-libertas \
   firmware-samsung locales-all ca-certificates initramfs-tools u-boot-tools locales \
-  console-common less network-manager git laptop-mode-tools python3 task-ssh-server
+  console-common less network-manager git laptop-mode-tools python3 task-ssh-server \
+  light-locker xfce4 xfce4-goodies xfce4-power-manager xfce4-terminal \
+  network-manager-gnome xserver-xorg-video-fbdev xserver-xorg-input-synaptics \
+  xserver-xorg-input-all xserver-xorg-input-libinput
 apt-get -y dist-upgrade
 apt-get -y autoremove
 apt-get clean
